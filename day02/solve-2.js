@@ -1,6 +1,5 @@
 const fs = require("fs");
 
-// PART 1:
 fs.readFile(__dirname + "/input.txt", (err, data) => {
   const rows = data.toString().split("\n");
   let valids = [];
