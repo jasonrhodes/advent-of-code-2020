@@ -1,4 +1,4 @@
-const read = require("../read");
+const read = require("../lib/read");
 const binary = { F: 0, B: 1, L: 0, R: 1 };
 
 read(__dirname + "/input.txt", (items) => {
